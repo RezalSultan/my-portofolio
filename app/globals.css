@@ -3,19 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Warna Tema Terang */
+  --l-semibg: #f6e1ab;
+  --l-primary: #ffd400;
+  --l-background: #fffdf2;
+
+  /* Warna Tema Gelap */
+  --d-semibg: #19012e;
+  --d-primary: #6203b7;
+  --d-background: #08000e;
+
+  /* Warna Aksen */
+  --a-first: #0a66c2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--d-background);
+    --primary: var(--d-primary);
+    --semibg: var(--d-semibg);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }

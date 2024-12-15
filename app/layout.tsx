@@ -26,10 +26,11 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const locale = (await headers()).get("X-NEXT-INTL-LOCALE") as string;
+
   return (
-    <html lang={locale}>
+    <html lang={locale} className="dark">
       <body
-        className={`${inriaSerif.variable} ${playfairDisplay.variable} antialiased`}
+        className={`${inriaSerif.variable} ${playfairDisplay.variable} antialiased bg-l-background dark:bg-d-background`}
       >
         {children}
       </body>
