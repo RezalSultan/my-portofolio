@@ -7,27 +7,44 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+      "3xl": "1800px",
+    },
     extend: {
       colors: {
-        // Light Theme Colors
         "l-semibg": "var(--l-semibg)",
         "l-primary": "var(--l-primary)",
         "l-background": "var(--l-background)",
-
-        // Dark Theme Colors
         "d-semibg": "var(--d-semibg)",
         "d-primary": "var(--d-primary)",
         "d-background": "var(--d-background)",
-
-        // Accent Color
         "a-first": "var(--a-first)",
       },
       fontFamily: {
         serif: ["var(--font-inria-serif)", "serif"],
         display: ["var(--font-playfair-display)", "serif"],
       },
+      container: {
+        padding: {
+          DEFAULT: "20px",
+          sm: "20px",
+          lg: "40px",
+          xl: "80px",
+          "2xl": "160px",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
     },
   },
-  plugins: [],
-  darkMode: "class",
+  plugins: [require("tailwindcss-animate")],
+  darkMode: ["class"],
 } satisfies Config;

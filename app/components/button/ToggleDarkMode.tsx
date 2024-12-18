@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import "./globals.css";
+import "../../globals.css";
 
-function MyToggle() {
+function ToggleDarkMode() {
   const [theme, setTheme] = useState<string>("dark");
 
   useEffect(() => {
@@ -33,12 +33,12 @@ function MyToggle() {
   if (theme === null) return null; // Render null sampai tema ditentukan
 
   return (
-    <div>
-      <button onClick={toggleTheme} className="text-black dark:text-white">
-        Toggle Theme
+    <>
+      <button onClick={toggleTheme} className="w-8 h-8 relative">
+        <div className="w-8 h-8 top-0 left-0 bg-l-semibg dark:bg-d-semibg rounded-2xl border-2 border-solid dark:border-white border-black transition-all duration-300 ease-in-out" />
       </button>
-    </div>
+    </>
   );
 }
 
-export default MyToggle;
+export default ToggleDarkMode;

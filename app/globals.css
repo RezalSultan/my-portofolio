@@ -19,8 +19,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: var(--d-background);
     --primary: var(--d-primary);
     --semibg: var(--d-semibg);
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0;
   }
 }

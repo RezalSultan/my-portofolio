@@ -1,19 +1,16 @@
 {
-	"navbar": {
-		"home-page": "Home",
-		"free": "Free!",
-		"blog": "Blogs",
-		"service": "Service",
-		"about-me": "About Me",
-		"button-login": "Login",
-		"button-register": "Register"
-	},
+  "navbar": {
+    "service": "SERVICE",
+    "portfolio": "PORTFOLIO",
+    "about-me": "ABOUT ME",
+    "contact": "CONTACT"
+  },
 
-	"home": {
-		"title": "Homepage",
-		"learns": "<span>Fun</span> and <span>Practical</span> Learning",
-		"with": "With FitAcademy",
-		"text-section-1": "Find and experience learning experiences that are fun, fun, without being complicated and make you want to keep learning!",
-		"start-learn": "Start Learning"
-	}
+  "home": {
+    "title": "Homepage",
+    "learns": "<span>Fun</span> and <span>Practical</span> Learning",
+    "with": "With FitAcademy",
+    "text-section-1": "Find and experience learning experiences that are fun, fun, without being complicated and make you want to keep learning!",
+    "start-learn": "Start Learning"
+  }
 }

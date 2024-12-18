@@ -1,19 +1,16 @@
 {
-	"navbar": {
-		"home-page": "Beranda",
-		"free": "Gratis!",
-		"blog": "Blog",
-		"service": "Layanan",
-		"about-me": "Tentang Kami",
-		"button-login": "Masuk",
-		"button-register": "Daftar"
-	},
+  "navbar": {
+    "service": "JASA",
+    "portfolio": "PORTOFOLIO",
+    "about-me": "TENTANG SAYA",
+    "contact": "KONTAK"
+  },
 
-	"home": {
-		"title": "Beranda",
-		"learns": "Belajar <span>Seru</span> dan <span>Praktis</span>",
-		"with": "Bareng FitAcademy",
-		"text-section-1": "Temukan dan rasakan pengalaman belajar yang seru, menyenangkan, tanpa ribet dan bikin kamu ingin belajar terus!",
-		"start-learn": "Mulai Belajar"
-	}
+  "home": {
+    "title": "Beranda",
+    "learns": "Belajar <span>Seru</span> dan <span>Praktis</span>",
+    "with": "Bareng FitAcademy",
+    "text-section-1": "Temukan dan rasakan pengalaman belajar yang seru, menyenangkan, tanpa ribet dan bikin kamu ingin belajar terus!",
+    "start-learn": "Mulai Belajar"
+  }
 }

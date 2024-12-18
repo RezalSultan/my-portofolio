@@ -30,7 +30,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="dark">
       <body
-        className={`${inriaSerif.variable} ${playfairDisplay.variable} antialiased bg-l-background dark:bg-d-background`}
+        className={`${inriaSerif.variable} ${playfairDisplay.variable} antialiased bg-l-background dark:bg-d-background transition-all duration-300 ease-in-out`}
       >
         {children}
       </body>
