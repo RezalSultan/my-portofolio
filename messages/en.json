@@ -1,0 +1,13 @@
+{
+	"navbar": {
+		"home": "HOME",
+		"portfolio": "PORTFOLIO",
+		"about-me": "ABOUT ME",
+		"blog": "BLOG",
+		"contact": "CONTACT"
+	},
+
+	"hero-section": {
+		"experience": "Years of Experience"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"navbar": {
+		"home": "BERANDA",
+		"portfolio": "PORTOFOLIO",
+		"about-me": "TENTANG",
+		"blog": "ARTIKEL",
+		"contact": "KONTAK"
+	},
+
+	"hero-section": {
+		"experience": "Tahun Pengalaman"
+	}
+}
