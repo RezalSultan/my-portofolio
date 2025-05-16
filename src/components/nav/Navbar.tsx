@@ -37,7 +37,7 @@ const Navbar = () => {
 			className={`fixed inset-0 z-[999] w-full border-b-2 border-black bg-background transition-all duration-200 ease-in-out dark:border-white dark:bg-background ${
 				visible ? `translate-y-0` : `-translate-y-20`
 			} ${openNavbar ? "h-20" : "h-screen xl:h-20"} `}>
-			<div className="flex h-20 items-center justify-between gap-10 px-7 text-foreground xl:container dark:text-foreground md:px-20 xl:mx-auto">
+			<div className="flex h-20 items-center justify-between gap-8 px-7 text-foreground xl:container dark:text-foreground md:px-20 xl:mx-auto">
 				<div>
 					<p className="text-2xl">LOGO</p>
 				</div>

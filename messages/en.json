@@ -7,7 +7,57 @@
 		"contact": "CONTACT"
 	},
 
+	"button": {
+		"lets-go": "LET'S GO",
+		"know-me": "GET TO KNOW ME",
+		"explore-more": "EXPORLE MORE",
+		"explore-gallery": "EXPLORE CERTIFICATE GALLERY",
+		"read-more": "READ MORE",
+		"contact-me": "CONTACT ME"
+	},
+
 	"hero-section": {
 		"experience": "Years of Experience"
+	},
+
+	"service-section": {
+		"title": "SERVICE",
+		"desc": "Let’s collaborate to turn your ideas into reality!",
+		"disable-1": "ON",
+		"disable-2": "PROGRESS.."
+	},
+
+	"portfolio-section": {
+		"portfolio-1": "PORT",
+		"portfolio-2": "FOLIO",
+		"cooming-soon": "COMING SOON..."
+	},
+
+	"aboutme-section": {
+		"title": "ABOUT ME",
+		"desc": "Passionate about web development with a particular interest in becoming a software developer, committed to delivering innovative and effective solutions. Eager to make a positive impact through my work and continuously seeking to expand my knowledge in the field of technology."
+	},
+
+	"skill-section": {
+		"title": "TECHNICAL SKILLS"
+	},
+
+	"certificate-section": {
+		"title": "CERTIFICATES"
+	},
+
+	"newblog-section": {
+		"title-1": "MY",
+		"title-2": "BLOG",
+		"velocity": "RECENT POSTS"
+	},
+
+	"call-to-action": {
+		"main-text": "Ready When You Are",
+		"action-text": "Have a project in mind? I'm ready to turn your ideas into scalable solutions."
+	},
+
+	"footer": {
+		"main-text": "Let's connect and create something great!"
 	}
 }

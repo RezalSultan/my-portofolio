@@ -1,14 +1,31 @@
-import Image from "next/image";
-import Navbar from "../../../components/nav/Navbar";
 import HeroSection from "./_page-components/HeroSection";
+import IntroductionSection from "./_page-components/IntroductionSection";
+import ServiceSection from "./_page-components/ServiceSection";
+import PortfolioSection from "./_page-components/PortfolioSection";
+import AboutMeSection from "./_page-components/AboutMeSection";
+import SkillSection from "./_page-components/SkillSection";
+import CertificateSection from "./_page-components/CertificateSection";
+import NewBlogSection from "./_page-components/NewBlogSection";
+import CallToAction from "@/components/nav/CallToAction";
 
-export default function Home() {
+export default async function Home({
+	params,
+}: {
+	params: Promise<{ locale: string }>;
+}) {
+	const { locale } = await params;
 	return (
 		<>
-			<Navbar />
 			<main className="mt-20 w-full">
 				<HeroSection />
-				{/* <ServiceSection /> */}
+				<IntroductionSection />
+				<ServiceSection />
+				<PortfolioSection />
+				<AboutMeSection />
+				<SkillSection />
+				<CertificateSection />
+				<NewBlogSection paramsLocale={locale} />
+				<CallToAction />
 			</main>
 		</>
 	);

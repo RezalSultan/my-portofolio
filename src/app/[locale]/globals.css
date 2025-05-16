@@ -7,6 +7,19 @@
 	--breakpoint-xs: 30rem;
 	--breakpoint-2xl: 100rem;
 	--breakpoint-3xl: 120rem;
+
+	--translate-101: 101%;
+
+	--animate-marquee: marquee 15s linear infinite;
+
+	@keyframes marquee {
+		0% {
+			transform: translateX(0%);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
 }
 
 @theme inline {

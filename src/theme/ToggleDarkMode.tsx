@@ -26,14 +26,14 @@ function ToggleDarkMode() {
 				className="relative h-8 w-8 cursor-pointer overflow-hidden rounded-full z-50">
 				<div className="h-8 w-8 absolute top-0 right-0 border-2 border-solid border-black dark:border-white  z-20 rounded-full"></div>
 				<div
-					className={`absolute top-0 bg-[#19012E] rounded-full h-8 w-8 transition-transform duration-300 ease-in-out  border-transparent ${
+					className={`absolute top-0 bg-muted rounded-full h-8 w-8 transition-transform duration-300 ease-in-out   border-transparent ${
 						currentTheme === "dark"
 							? "translate-y-0"
 							: "-translate-y-9"
 					}`}
 				/>
 				<div
-					className={`h-8 w-8 flex justify-center items-center absolute -top-px transition-transform duration-500 ease-in border-2 border-transparent ${
+					className={`h-8 w-8 flex justify-center items-center absolute -top-px transition-transform duration-500 ease-in border-2 pl-px border-transparent ${
 						currentTheme === "dark"
 							? "translate-y-0"
 							: "-translate-y-9"
@@ -60,7 +60,7 @@ function ToggleDarkMode() {
 					}`}
 				/>
 				<div
-					className={`h-8 w-8 flex justify-center items-center absolute top-0 transition-transform duration-500 ease-in border-2 border-transparent ${
+					className={`h-8 w-8 flex justify-center items-center absolute top-0 transition-transform duration-500 border-2 ease-in border-transparent ${
 						currentTheme === "light"
 							? "translate-y-0"
 							: "translate-y-9"
@@ -84,7 +84,6 @@ function ToggleDarkMode() {
 						/>
 					</svg>
 				</div>
-				{/* <div className="bg-[#D9D9D9] top-0 left-0 h-8 w-8 transition-all duration-300 ease-in-out" /> */}
 			</button>
 		</>
 	);

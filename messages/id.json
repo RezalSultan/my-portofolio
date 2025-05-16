@@ -7,7 +7,57 @@
 		"contact": "KONTAK"
 	},
 
+	"button": {
+		"lets-go": "AYO MULAI",
+		"know-me": "KENAL LEBIH DEKAT",
+		"explore-more": "JELAJAHI LAGI",
+		"explore-gallery": "JELAJAHI GALERI SERTIFIKAT",
+		"read-more": "LANJUT BACA",
+		"contact-me": "KONTAK SAYA"
+	},
+
 	"hero-section": {
 		"experience": "Tahun Pengalaman"
+	},
+
+	"service-section": {
+		"title": "LAYANAN",
+		"desc": "Ayo berkolaborasi mewujudkan ide-idemu jadi kenyataan!",
+		"disable-1": "LAGI",
+		"disable-2": "PROSES.."
+	},
+
+	"portfolio-section": {
+		"portfolio-1": "PORTO",
+		"portfolio-2": "FOLIO",
+		"cooming-soon": "SEGERA HADIR..."
+	},
+
+	"aboutme-section": {
+		"title": "TENTANG SAYA",
+		"desc": "Memiliki minat yang besar dalam pengembangan web dengan ketertarikan khusus untuk menjadi seorang software developer. Berkomitmen untuk menghadirkan solusi yang inovatif dan efektif. Antusias untuk memberikan dampak positif melalui pekerjaan saya dan terus berusaha mengembangkan pengetahuan di bidang teknologi."
+	},
+
+	"skill-section": {
+		"title": "SKIL TEKNIKAL"
+	},
+
+	"certificate-section": {
+		"title": "SERTIFIKAT"
+	},
+
+	"newblog-section": {
+		"title-1": "ARTIKEL",
+		"title-2": "SAYA",
+		"velocity": "POSTINGAN TERBARU"
+	},
+
+	"call-to-action": {
+		"main-text": "Mari Mulai Kapan Saja",
+		"action-text": "Punya ide proyek? Saya siap membantu mengubah ide kamu menjadi solusi nyata dan berkembang."
+	},
+
+	"footer": {
+		"main-text": "Ayo berkoneksi dan ciptakan sesuatu yang hebat!"
 	}
 }

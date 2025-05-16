@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-	"inline-flex items-center justify-center gap-2.5 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0  outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+	"inline-flex cursor-pointer items-center justify-center gap-2.5 whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
 	{
 		variants: {
 			variant: {
@@ -49,9 +49,17 @@ function Button({
 	return (
 		<Comp
 			data-slot="button"
-			className={cn(buttonVariants({ variant, size, className }))}
-			{...props}
-		/>
+			className={cn(
+				"relative overflow-hidden group cursor-default group",
+				buttonVariants({ variant, size }),
+				className
+			)}
+			{...props}>
+			<span className="z-50 inline-flex items-center justify-center gap-2.5 whitespace-nowrap">
+				{props.children}
+			</span>
+			<span className="absolute w-0 h-0 transition-all rounded-full duration-500 ease-out bg-white/30 dark:bg-black/30 group-hover:w-[420px] group-hover:h-[420px]"></span>
+		</Comp>
 	);
 }
 

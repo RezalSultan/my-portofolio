@@ -5,6 +5,8 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import ThemeProvider from "@/theme/theme-provider";
+import Footer from "@/components/nav/Footer";
+import Navbar from "@/components/nav/Navbar";
 
 const inriaSerif = Inria_Serif({
 	weight: ["300", "400", "700"],
@@ -45,7 +47,11 @@ export default async function RootLayout({
 					defaultTheme="system"
 					enableSystem
 					disableTransitionOnChange>
-					<NextIntlClientProvider>{children}</NextIntlClientProvider>
+					<NextIntlClientProvider>
+						<Navbar />
+						{children}
+						<Footer />
+					</NextIntlClientProvider>
 				</ThemeProvider>
 			</body>
 		</html>
